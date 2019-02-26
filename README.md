@@ -1,35 +1,7 @@
-# PyTorch Template Project
+# PyTorch Implementation of Combustion model
 PyTorch deep learning project made easy.
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-* [PyTorch Template Project](#pytorch-template-project)
-	* [Requirements](#requirements)
-	* [Features](#features)
-	* [Folder Structure](#folder-structure)
-	* [Usage](#usage)
-		* [Config file format](#config-file-format)
-		* [Using config files](#using-config-files)
-		* [Resuming from checkpoints](#resuming-from-checkpoints)
-    * [Using Multiple GPU](#using-multiple-gpu)
-	* [Customization](#customization)
-		* [Data Loader](#data-loader)
-		* [Trainer](#trainer)
-		* [Model](#model)
-		* [Loss and metrics](#loss-and-metrics)
-			* [Multiple metrics](#multiple-metrics)
-		* [Additional logging](#additional-logging)
-		* [Validation data](#validation-data)
-		* [Checkpoints](#checkpoints)
-    * [TensorboardX Visualization](#tensorboardx-visualization)
-	* [Contributing](#contributing)
-	* [TODOs](#todos)
-	* [License](#license)
-	* [Acknowledgments](#acknowledgments)
-
-<!-- /code_chunk_output -->
 
 ## Requirements
 * Python >= 3.5
