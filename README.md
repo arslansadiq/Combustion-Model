@@ -1,5 +1,4 @@
 # PyTorch Implementation of Combustion model
-PyTorch deep learning project made easy.
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
@@ -11,7 +10,7 @@ PyTorch deep learning project made easy.
 * tensorboardX >= 1.2 (Optional for TensorboardX)
 
 ## Features
-* Clear folder structure which is suitable for many deep learning projects.
+* Clear folder structure.
 * `.json` config file support for more convenient parameter tuning.
 * Checkpoint saving and resuming.
 * Abstract base classes for faster development:
@@ -56,7 +55,6 @@ PyTorch deep learning project made easy.
   ```
 
 ## Usage
-The code in this repo is an MNIST example of the template.
 Try `python3 train.py -c config.json` to run code.
 
 ### Config file format
@@ -279,27 +277,3 @@ If you need more visualizations, use `add_scalar('tag', data)`, `add_image('tag'
 `add_something()` methods in this template are basically wrappers for those of `tensorboardX.SummaryWriter` module. 
 
 **Note**: You don't have to specify current steps, since `WriterTensorboardX` class defined at `logger/visualization.py` will track current steps.
-
-## Contributing
-Feel free to contribute any kind of function or enhancement, here the coding style follows PEP8
-
-Code should pass the [Flake8](http://flake8.pycqa.org/en/latest/) check before committing.
-
-## TODOs
-- [ ] Iteration-based training (instead of epoch-based)
-- [ ] Multiple optimizers
-- [ ] Configurable logging layout, checkpoint naming
-- [ ] `visdom` logger support
-- [x] `tensorboardX` logger support
-- [x] Adding command line option for fine-tuning
-- [x] Multi-GPU support
-- [x] Update the example to PyTorch 0.4
-- [x] Learning rate scheduler
-- [x] Deprecate `BaseDataLoader`, use `torch.utils.data` instesad
-- [x] Load settings from `config` files
-
-## License
-This project is licensed under the MIT License. See  LICENSE for more details
-
-## Acknowledgments
-This project is inspired by the project [Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template) by [Mahmoud Gemy](https://github.com/MrGemy95)
