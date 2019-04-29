@@ -8,6 +8,10 @@ def my_metric(output, target):
         #assert pred.shape[0] == len(target)
         #correct = 0
         #correct += torch.sum(output == target).item()
+        output = output.cpu()
+        target = target.cpu()
+        output = output.detach().numpy()
+        target = target.detach().numpy()
         R2 = r2_score(output, target)
     return R2#correct / len(target)
 '''
